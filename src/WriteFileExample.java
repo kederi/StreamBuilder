@@ -54,7 +54,7 @@ public class WriteFileExample {
 				new FileOutputStream(new File(fileName)))
 		{
 			
-			for(int index = 0; index <= 255; ++index) {
+			for(int index = 0; index < 255; ++index) {
 				output.write(index);
 			}
 
