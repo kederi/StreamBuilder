@@ -16,7 +16,7 @@ public class Student {
 	
 	public Student(String firstName, String lastName) {
 		this(firstName, lastName, "n/a", "n/a", "n/a", "n/a");
-		if (www )
+		
 	}
 	
 	Student x = new StudentBuilder()
@@ -143,7 +143,7 @@ public class Student {
 	public static void main(String[] args) {
 		Student s = new Student();
 		
-		Student s1 = new Student("Smith", "Bob",)
+		Student s1 = new Student("Smith", "Bob");
 		
 
 	}

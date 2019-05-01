@@ -64,7 +64,7 @@ public class WriteFileExample {
 	}
 
 	private static String createTextData() {
-		String[] values = {"one", "two", "three"};
+		String[] values = {"four", "six", "three"};
 		
 		StringBuffer buffer = new StringBuffer();
 		

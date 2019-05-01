@@ -48,6 +48,7 @@ public class DataStream {
 			output.writeUTF("CS2334");
 			output.writeDouble(2334.0);
 			output.writeInt(2334);
+			output.writeInt(33);
 		}
 		catch(IOException e) {
 			e.printStackTrace();
@@ -59,8 +60,6 @@ public class DataStream {
 				new DataInputStream(new FileInputStream(fileName));)
 				
 		{
-			//String str = input.readUTF();
-			//Double dbl1 = input.readDouble();
 			Integer int1 = input.readInt();
 			Double dbl1 = input.readDouble();
 			String str = input.readUTF();
